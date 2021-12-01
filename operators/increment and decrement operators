@@ -1,0 +1,13 @@
+class Main {
+    static void operators(int a){
+        System.out.println("increment is : " + (++a));
+        System.out.println("decrement is : " + (--a));
+        
+    }
+	public static void main (String[] args) {
+	    
+	   operators(10);
+		
+		
+	}
+}
