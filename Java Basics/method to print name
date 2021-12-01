@@ -1,0 +1,11 @@
+class Main {
+    static void name(){
+        System.out.println("vikash kumar");
+    }
+	public static void main (String[] args) {
+	    
+	   name();
+		
+		
+	}
+}
