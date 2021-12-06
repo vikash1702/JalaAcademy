@@ -1,0 +1,13 @@
+
+import java.io.*;
+
+
+class Main {
+   
+  
+	public static void main (String[] args) {
+	    String str = "string1";
+	    String str2 = new String("string2");
+	    System.out.println(str + " "+ str2);
+	}
+}
