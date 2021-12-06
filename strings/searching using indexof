@@ -1,0 +1,13 @@
+
+import java.io.*;
+
+
+class Main {
+   
+  
+	public static void main (String[] args) {
+	    String str = "string1";
+	   int index = str.indexOf('r');
+	    System.out.println(index);
+	}
+}
