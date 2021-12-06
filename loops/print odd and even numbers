@@ -1,0 +1,23 @@
+import java.io.*;
+
+class Main {
+    
+	public static void main (String[] args) {
+	 
+	 // to print odd numbers 
+	 System.out.println("Odd Numbers");
+	 int i=1;
+	 while(i<100){
+	     System.out.print(i+" ");
+	     i+ = 2;
+	 }
+	 
+	 //to print even Numbers
+	 System.out.println("even Numbers");
+	 int j=2;
+	 while(j<=100){
+	     System.out.print(j+" ");
+	     j+ = 2;
+	 }
+	}
+}
