@@ -1,0 +1,13 @@
+
+import java.io.*;
+
+
+class Main {
+    public static void add(int index,int number,int[] array){
+       array[index] = number;
+    }
+	public static void main (String[] args) {
+	    int[] array = new int[10];
+	    add(3,34,array);
+	}
+}
