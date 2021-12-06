@@ -1,0 +1,20 @@
+import java.io.*;
+
+
+class Main {
+    public static int average(int[] array,int number){
+       int index=0;
+       for(int i=0;i<array.size;i++){
+           if(number==array[i]){
+               index = i;
+               break;
+           }
+       }
+       return index;
+    }
+	public static void main (String[] args) {
+	    int[] array = new int[10];
+	    
+	    System.out.println(findindex(array,10);)
+	}
+}
