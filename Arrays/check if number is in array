@@ -1,0 +1,21 @@
+
+import java.io.*;
+
+
+class Main {
+    public static String checkNumber(int[] array,int number){
+       String flag = "NO";
+       for(int i=0;i<array.size;i++){
+           if(number==array[i]){
+               flag = "YES";
+               break;
+           }
+       }
+       return flag;
+    }
+	public static void main (String[] args) {
+	    int[] array = new int[10];
+	    
+	    System.out.println(checkNumber(array,10));
+	}
+}
